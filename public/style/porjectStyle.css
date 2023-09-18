@@ -1,0 +1,203 @@
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  * a {
+    text-decoration:none
+  }
+  
+  #container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    #top_nav_bar {
+    position: fixed; /* 固定位置 */
+    top: 0; /* 距離頂部的距離為0 */
+    left: 0; /* 距離左側的距離為0 */
+    right: 0;
+    height: auto;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom:  1px solid lightgrey;
+    padding: 10px;
+    background-color: white;
+    }
+  
+    #top_nav_bar h3{
+      font-family: 'Raleway', sans-serif;
+      font-size: 28px;
+      margin-left: 15px;
+    }
+  
+  
+    #top_nav_right{
+      display: flex;
+      flex-direction: row;
+      font-family: 'Raleway', sans-serif;
+      font-size: 28px;
+    }
+  
+    #top_nav_resume {
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      margin-left:0 ;
+      margin-right:0 ;
+      padding: 0 5px;
+    }
+    
+    #top_nav_bar a{
+      color: rgb(139, 138, 138);
+      margin: 5px;
+    }
+  
+    #main {
+      display: flex;
+      flex-direction: column;
+      justify-content:space-between;
+      align-items: center;
+      width: 85vw;
+    }
+
+    #projectTitle{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 70px;
+    }
+
+    #mainH2 {
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .mainH2{
+        margin-bottom: 10px;
+        padding: 5px;
+        text-align: center;
+        background-color: rgb(252, 252, 192);
+        border-radius: 1px;
+    }
+
+    #deployLink {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .lanternSlide {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 25vw;
+      margin-right: 60px;
+  
+    }
+
+    .pictureBtn {
+      display: flex;
+      width: 2vw;
+      height: 3vw;
+      padding: 5px;
+      margin: 5px;
+      font-size: 0.8rem;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .mainArea{
+        width: 100%;
+        height: auto ;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        background-color: lightgray;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+    .mainArea h3 {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    
+    .mainDetailed {
+      margin-top: 10px;
+      padding-bottom: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-around; 
+      align-items: center; 
+      width: 75vw;
+        
+    }
+
+    .mainDetailed p {
+        width: 30vw;
+        height: auto;
+        margin: 10px 0 0 0;
+        padding: 25px 10px 25px 10px;
+        background-color:rgb(244, 181, 156);
+        border-radius: 5px;
+        font-size: 1.2rem;
+        font-family: 'Noto Sans TC', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+    }
+
+
+    .mainPicture{
+        width: 140%;
+        border-radius: 5px;
+    }
+
+    
+
+    #end {
+      width: auto;
+      height: auto ;
+      padding: 30px;
+      margin-bottom: 20px;
+      background-color: lightgray;
+      padding-bottom: 20px;
+      border-radius: 10px;
+    }
+    
+    .question {
+      background-color: aqua;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin:10px 10px 20px 10px;
+      border-radius: 10px;
+    }
+
+
+    #end h3{
+      padding: 10px;
+    }
+
+
+    #end p{
+      font-size: 1.2rem;
+      padding:0 10px 10px 10px;
+      font-family: 'Noto Sans TC', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Source Code Pro', monospace;
+    }
+
+    #explain{
+      background-color: rgb(252, 102, 102);
+    }
+
+
+    .ans {
+      color: rgb(252, 99, 34);
+      border-radius: 0 0 10px 10px ;
+      padding-top: 10px;
+      font-weight: 500;
+    }
+  

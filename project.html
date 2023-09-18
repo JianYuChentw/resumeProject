@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Jian Yu" />
+    <meta name="robots" content="index,follow" />
+    <title>Porject｜| JianYuChen</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Raleway:ital@1&family=Source+Code+Pro:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./public/style/porjectStyle.css" />
+    <style></style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="top_nav_bar">
+        <h3>JianYuChen | Porject</h3>
+        <div id="top_nav_right">
+          <div class="top_link">
+            <a href="./index.html">Front page</a>
+          </div>
+          <div class="top_link" id="top_nav_resume">
+            <a href="./resume.html">Resume</a>
+          </div>
+          <div class="top_link">
+            <a href="./contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="main">
+        <div id="projectTitle">
+          <h2 id="mainH2">
+            Bowa 團隊協作專題-線上多元球鞋購物平台 - Back End Engineer
+          </h2>
+
+          <a
+            href="https://github.com/JianYuChentw/Step-Brother_shopping_car"
+            target="_blank"
+            rel="github"
+            ><img src="./pictures/githubicon.gif" alt="githubicon"
+          /></a>
+          <br />
+        </div>
+        <a id="deployLink" href="https://stepbrothershoppingcar.zeabur.app/"
+          ><img
+            width="48"
+            height="48"
+            src="https://img.icons8.com/fluency-systems-filled/48/hand-right.png"
+            alt="hand-right"
+          />
+          <h3>去購物！</h3></a
+        >
+        <h2 class="mainH2">What did I do ?</h2>
+        <div class="mainArea" id="mainArea1">
+          <h3>需求分析：</h3>
+          <div class="mainDetailed">
+            <p>
+              要與項目相關者（以本專案為配置組成為專案經理、前端工程師、後端工程師及資料庫工程師）討論和理解項目的需求和目標。
+              進行需求分析，確定系統的功能、性能、安全性和可擴展性要求。<br />
+            </p>
+
+            <div class="lanternSlide">
+              <button class="pictureBtn" onclick="plusDivs(-1)">
+                &#10094;
+              </button>
+              <img
+                class="mainPicture mainPicture1"
+                src="./pictures/talkPicture.jpg"
+                alt="discussPicture"
+              />
+              <img
+                class="mainPicture mainPicture1"
+                src="./pictures/talkPicture2.jpg"
+                alt="discussPicture"
+              />
+              <button class="pictureBtn" onclick="plusDivs(+1)">
+                &#10095;
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="mainArea" id="mainArea2">
+          <h3>設計架構：</h3>
+          <div class="mainDetailed">
+            <p>
+              基於需求分析來將設計系統的架構。
+              與前端討論數據模型、數據庫結構、API端點和服務端點等。
+              與後端資料工程師討論系統的可擴展性，以應對未來的增長。
+            </p>
+            <div class="lanternSlide">
+              <button class="pictureBtn" onclick="plusDivs2(-1)">
+                &#10094;
+              </button>
+              <img
+                class="mainPicture mainPicture2"
+                src="./pictures/API document.jpg"
+                alt="API document"
+              />
+              <img
+                class="mainPicture mainPicture2"
+                src="./pictures/API document2.jpg"
+                alt="API document2"
+              />
+              <button class="pictureBtn" onclick="plusDivs2(+1)">
+                &#10095;
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="mainArea" id="mainArea3">
+          <h3>開發：</h3>
+          <div class="mainDetailed">
+            <p>
+              開始編寫後端程式碼，編寫模型層零件，並拼湊起來，實現系統的核心功能。
+              實現API端點和服務端點，以供前端和其他服務使用。
+              實現系統的業務邏輯、驗證和安全性措施。
+            </p>
+            <div class="lanternSlide">
+              <img
+                class="mainPicture mainPicture3"
+                src="./pictures/code.jpg"
+                alt="code"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="mainArea" id="mainArea4">
+          <h3>測試：</h3>
+          <div class="mainDetailed">
+            <p>
+              先進行單元測試、集成測試再以Postman功能測試請求與回應，以確保代碼的正確性和可靠性。
+              與前端串接後測試功能是否符合預期，同時確認是否有意料之外的錯誤須要修正。
+            </p>
+            <div class="lanternSlide">
+              <img
+                class="mainPicture mainPicture4"
+                src="./pictures/postman.jpg"
+                alt="postman"
+              />
+            </div>
+          </div>
+        </div>
+        <h2 class="mainH2">Dilemma ? Error ?</h2>
+        <div id="end">
+          <div class="question">
+            <h3>萬事起頭難,所以有了API 設計規劃 ！</h3>
+            <p>
+              起頭先想到了，購物網站主體面向顧客購物體驗、會員註冊，後台面向雇主使用管理商品上下架、庫存管理,有了這些後就開始制定其他規則。<br />
+              開始制定API格式的時,就必須在自己先想好數據在前、後端的格式
+              (EX:我期望資料包裹一起送到後端,並且裡面包含了數個我需要的物件,其中也可能參雜陣列,
+              針對這些數據我在資料流的中層會提取相關的模組來加工，再依據制定的格式回傳給前端),網路架構採用RESTful
+              API,訪問頁面採用GET、提送相關資料採用POST、異動或刪除採用PUT,同時也代表說我們本身採用軟刪除的模式。
+            </p>
+          </div>
+          <div class="question">
+            <h3>原來跨域會使session相關資訊遺失 ?!</h3>
+            <p>
+              開發初期在撰寫時,憑證授權的方法上採用熟悉的session,但在做第一次測試時發現，分離作業及測試的模式下會使session遺失,
+              因為跨域的傳輸會無法攜帶session的相關資訊，於是授權及認證改採用JWT(JSON
+              Web
+              Token)的方式,JWT是採用發給使用者具有時效性的token作為使用相關網頁的通行證,並只儲存會員編號及帳號,
+              因此評估不論最後是採分離式或整合式演示至都有較好的容錯。
+            </p>
+          </div>
+          <div id="explain" class="question">
+            <h3>Not passed !</h3>
+            <p>
+              在專案執行的末期,客戶追加了後台控管訂單與商品的要求,於是將專案延期兩週,
+              把專案推回前中期,重新盤整專案的全貌,並規劃新增後台系統。但這也不是壞事,
+              因為在這次追加有多了些想法。
+            </p>
+          </div>
+
+          <div class="question">
+            <h3>沒有絕對安全的資料 !</h3>
+            <p>
+              在後台的系統的開發中，開始思考將密碼儲存在資料庫應該不是安全的,任何的防禦措施都會有被攻破的時候
+              ,那作為開發應該增加突破者的時間與技術成本,於是我在後台的登入系統,嘗試採用了單向雜湊加密的方法,
+              由密碼與隨機產生的鹽值(Salt)進行雜湊產生的雜湊值(Hash)儲存在資料庫,進而變成'不是秘密的秘密',
+              當密碼本身與存在資料庫的鹽值契合產生的鑰匙才能登入後台的系統。
+            </p>
+          </div>
+          <div class="question">
+            <h3>訂單的分身術</h3>
+            <p>
+              演示時,後台的顯示上出現同一筆訂單不同商品被系統拆分成兩筆訂單狀況,
+              雖然不影響顧客體驗,但是對於商家來說著實不方便,細究原因是因為在判定同筆訂單的時,
+              是採同用戶的下單時間來區分(應理送出訂單時,應該會在資料庫建立按下送出的時間),
+              但在訂單產生時有機率出現千分位差,才會出現訂單被拆開的情況。
+            </p>
+            <h3>修正的方向</h3>
+            <p class="ans">
+              雖然在演示時意外出現這個狀況,但也是碰坑解決的好機會,我覺得在設計上從購物車調用資料,
+              完成結帳程序後,應該再額外給予交易紀錄相同訂單的外鍵編號,以此來判定訂單的統一性,這樣在讀寫上就有明確的標地。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
+
+      function showDivs(n) {
+        let i;
+        var x = document.getElementsByClassName('mainPicture1');
+        if (n > x.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = 'none';
+        }
+        x[slideIndex - 1].style.display = 'block';
+      }
+
+      let slideIndex2 = 1;
+      showDivs2(slideIndex2);
+
+      function plusDivs2(n) {
+        showDivs2((slideIndex2 += n));
+      }
+
+      function showDivs2(n) {
+        let i;
+        var x = document.getElementsByClassName('mainPicture2');
+        if (n > x.length) {
+          slideIndex2 = 1;
+        }
+        if (n < 1) {
+          slideIndex2 = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = 'none';
+        }
+        x[slideIndex2 - 1].style.display = 'block';
+      }
+    </script>
+  </body>
+</html>

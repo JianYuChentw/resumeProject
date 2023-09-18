@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+* a {
+  text-decoration:none
+}
+body {
+  position: relative;
+  
+}
+
+
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  }       
+
+  #top_nav_bar {
+    height: auto;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 10px 0;
+    align-items: center;
+    border-bottom:  1px solid lightgrey;
+    padding: 10px 0;
+  }
+
+#top_nav_bar h3{
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  margin-left: 15px;
+}
+
+#top_nav_right{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+}
+
+
+#top_nav_porject{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin-left:0 ;
+  margin-right:0 ;
+}
+
+#top_nav_bar a{
+  color: rgb(139, 138, 138);
+  margin: 5px;
+}
+
+ul li {
+  margin: 5px;
+}
+
+ ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.table {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  width: 85vw;
+}
+
+.table table {
+  border-collapse: collapse;
+  margin-right: 70px;
+  
+}
+
+.table table tr {
+  border-bottom: 2px solid gray;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.table table tr td {
+  padding: 0.5rem  ;
+  font-size: 1.2rem;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.td_title{
+  width: 80px;
+}
+
+.table table tr:hover {
+  background-color: #ceedff;
+}
+
+#mid_picture{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.footer_big_area{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 70px;
+  background-color: rgb(225, 225, 249);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 0px;
+  font-family: 'Raleway', sans-serif;
+  align-items: center;
+  font-size: 22px;
+}
+
